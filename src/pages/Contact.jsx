@@ -27,9 +27,9 @@ const Contact = () => {
   }
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-200">
       {/* Hero */}
-      <div className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white py-16">
+      <div className="bg-gradient-to-r from-primary-600 to-secondary-600 text-black py-16">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Get in Touch
@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="container-custom py-16">
+      <div className="container-custom px-6 py-16">
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Phone</p>
-                    <p className="text-gray-600">1-800-ROMANCE</p>
+                    <p className="text-gray-600">1-800-45362</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -64,7 +64,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Email</p>
-                    <p className="text-gray-600">support@pureromance.com</p>
+                    <p className="text-gray-600">support@thevibes.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -74,7 +74,7 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold text-gray-900">Address</p>
                     <p className="text-gray-600">
-                      123 Romance Street<br />
+                      123 vibes Street<br />
                       Cincinnati, OH 45202
                     </p>
                   </div>

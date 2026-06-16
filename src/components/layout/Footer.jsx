@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-gradient-to-r from-pink-500 via-rose-500 to-red-500 text-gray-300">
       <div className="container-custom py-12 px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
@@ -97,22 +97,22 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>123 Romance Street, Cincinnati, OH 45202</span>
+                <span>123 vibes Street, Cincinnati, OH 45202</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="flex-shrink-0" />
-                <span>1-800-ROMANCE</span>
+                <span>1-800-53637</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="flex-shrink-0" />
-                <span>support@pureromance.com</span>
+                <span>support@thevibes.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Pure Romance. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} The Vibes. All rights reserved.</p>
           <p className="mt-2 text-xs text-gray-500">
             This is a demo clone website for educational purposes only.
           </p>
